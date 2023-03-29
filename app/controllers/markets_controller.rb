@@ -9,7 +9,7 @@ class MarketsController < ApplicationController
 
     value_table = []
     @markets.each do |market|
-      value_table << market[:value]
+      value_table << market.value
 
     end
 
